@@ -14,9 +14,20 @@
 // Console.WriteLine(ls.getLikes(arr));
 
 
-SearchInArray sa = new SearchInArray();
+// SearchInArray sa = new SearchInArray();
 
-string[] parents = { "home", "milk", "Mercury", "fish" };
-string child = "me";
-string[] array = sa.searchParts(parents, child);
-Console.WriteLine(String.Join(", ", array));
+// string[] parents = { "home", "milk", "Mercury", "fish" };
+// string child = "me";
+// string[] array = sa.searchParts(parents, child);
+// Console.WriteLine(String.Join(", ", array));
+
+// IntegerManipulation im = new IntegerManipulation();
+
+// List<int> numbers = new List<int> { 12, 65, 34, 78, 91, 23, 56, 44, 10, 100, 51, 43, 82, 39, 70 };
+
+// int ans = im.getSumGreaterThan50(numbers);
+
+// Console.WriteLine(ans);
+
+
+
