@@ -30,4 +30,11 @@
 // Console.WriteLine(ans);
 
 
+// Circle c = new Circle(5);
+// Rectangle r = new Rectangle(10, 5);
+// Triangle t = new Triangle(10, 10);
 
+
+// Console.WriteLine(c.Area());
+// Console.WriteLine(r.Area());
+// Console.WriteLine(t.Area());
