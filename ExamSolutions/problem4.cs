@@ -13,7 +13,7 @@ class SearchInArray
 
     public string[] searchParts(string[] parents, string child)
     {
-
+        child = child.ToLower();
 
         ArrayList found = new ArrayList();
 

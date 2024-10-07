@@ -22,6 +22,23 @@ class PrimeOrNot
 
         }
 
+        if (number == 0 || number == 1)
+        {
+            return "";
+        }
+
+        if (number == 2)
+        {
+            if (isNeg)
+            {
+                return "-2";
+            }
+            else
+            {
+                return "2";
+            }
+        }
+
         for (int i = 2; i <= number; i++)
         {
             if (CheckPrime(i))
@@ -42,6 +59,19 @@ class PrimeOrNot
 
     public bool CheckPrime(int number)
     {
+        if (number < 0)
+        {
+            number = number * -1;
+
+        }
+        if (number == 0 || number == 1)
+        {
+            return false;
+        }
+        if (number == 2)
+        {
+            return true;
+        }
         int completeDivisions = 0;
         for (int i = 2; i <= number / 2; i++)
         {
